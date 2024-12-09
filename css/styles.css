@@ -124,6 +124,7 @@ header .contacts {
 .nav-item .nav-item-link:focus,
 .contacts-list .contacts-list-item-link:focus {
     color: #404bbf;
+    position: relative;
 }
 
 .contacts {
@@ -139,6 +140,7 @@ header .contacts {
 
 .nav-item .nav-item-link:hover::after, .nav-item .nav-item-link:focus::after{
     content: '';
+    position: absolute;
     display: block;
     border-radius: 2px;
     background-color: #404bbf;
