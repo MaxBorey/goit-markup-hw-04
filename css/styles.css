@@ -137,6 +137,17 @@ header .contacts {
     color: #434455;
 }
 
+.nav-item .nav-item-link:hover::after, .nav-item .nav-item-link:focus::after{
+    content: "";
+    display: block;
+    border-radius: 2px;
+    background-color: #404bbf;
+    width: 48px;
+    height: 4px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
 /* #endregion */
 
 /* #region section 1*/
@@ -145,6 +156,13 @@ header .contacts {
     color: #fff;
     padding-top: 188px;
     padding-bottom: 188px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-clip: padding-box;   
 }
 
 .hero-title {
