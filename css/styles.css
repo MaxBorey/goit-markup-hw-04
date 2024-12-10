@@ -244,7 +244,6 @@ header .contacts {
 
 .features-text {
 }
-
 /* #endregion */
 
 /* #region section 3*/
@@ -291,8 +290,32 @@ header .contacts {
 .team-card-text {
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
+.team-social-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team-social-link {
+    width: 100%;
+    height: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #f4f4fd;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: #404bbf;
+    fill: #f4f4fd;
+}
 /* #endregion */
 
 /* #region section 4*/
