@@ -473,7 +473,7 @@ header .contacts {
 
 .container-footer-logo {
     margin-right: 120px;
-
+   
 }
 
 .footer .logo {
@@ -489,10 +489,11 @@ header .contacts {
     letter-spacing: 0.02em;
 }
 
-.footer .social-text {
+.container-footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-        
+    white-space: nowrap;
+    width: fit-content;
 }
 .social-text {
     font-family: "Roboto", sans-serif;
@@ -524,4 +525,5 @@ header .contacts {
     background-color: #31d0aa;
     fill: #f4f4fd;
 }
+
 /* #endregion */
