@@ -471,11 +471,6 @@ header .contacts {
     align-items: baseline;
 }
 
-.container-footer-logo {
-    margin-right: 120px;
-   
-}
-
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -491,7 +486,7 @@ header .contacts {
 
 .container-footer-logo {
     display: inline-block;
-    margin-bottom: 16px;
+    margin-right: 120px;
     white-space: nowrap;
     width: fit-content;
 }
