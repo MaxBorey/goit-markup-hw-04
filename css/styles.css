@@ -488,7 +488,6 @@ button {
     padding: 100px 0;
     display: flex;
     align-items: baseline;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
